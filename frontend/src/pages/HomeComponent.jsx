@@ -6,7 +6,7 @@ import { IconButton, TextField } from "@mui/material";
 import RestoreIcon from "@mui/icons-material/Restore";
 import Button from "@mui/material/Button";
 import "./HomeComponent.css";
-import { server } from "../environment.js";
+import  server  from "../environment.js";
 
 function HomeComponent() {
   let navigate = useNavigate();

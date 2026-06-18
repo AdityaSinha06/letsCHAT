@@ -14,7 +14,7 @@ import ChatIcon from "@mui/icons-material/Chat";
 import Badge from "@mui/material/Badge";
 import { useNavigate } from "react-router-dom";
 import SpeakerNotesOffIcon from "@mui/icons-material/SpeakerNotesOff";
-import { server } from "../environment.js";
+import  server  from "../environment.js";
 
 const server_url = `${server}`;
 

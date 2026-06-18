@@ -2,7 +2,7 @@ import WithAuth from "../utils/WithAuth";
 import { Button } from "@mui/material";
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { server } from "../environment.js";
+import server  from "../environment.js";
 
 function History() {
   let [meetings, setMeetings] = useState([]);
