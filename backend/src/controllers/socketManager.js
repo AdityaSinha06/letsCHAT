@@ -17,7 +17,7 @@ export const connectToSocket = (server) => {
     io.on("connection" , (socket) => {
         
         socket.on("join-call" , (path) => {
-            console.log("something-connected");
+            // console.log("something-connected");
             if(connections[path] === undefined) {
                 connections[path] = []
             }
@@ -60,7 +60,7 @@ export const connectToSocket = (server) => {
 
                 messages[matchingRoom].push({"sender" : sender , "data" : data , "socket-id-sender" : socket.id});
                 
-                console.log(messages[matchingRoom]);
+                // console.log(messages[matchingRoom]);
                 connections[matchingRoom].forEach((participant) => {
                     io.to(participant).emit("chat-message" , data , sender , socket.id);
                 })
