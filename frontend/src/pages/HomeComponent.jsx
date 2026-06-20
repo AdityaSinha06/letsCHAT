@@ -62,7 +62,7 @@ function HomeComponent() {
         <nav className="homeNav">
           <div className="logoDiv">
             <Link to="" style={{ textDecoration: "none", color: "azure" }}>
-              <h2>letsCHAT Video Call</h2>
+              <h2>letsMeet</h2>
             </Link>
           </div>
 

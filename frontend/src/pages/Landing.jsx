@@ -6,7 +6,7 @@ export default function Landing() {
         <div className="landingPageContainer">
             <nav>
                 <div className="logoDiv">
-                    <Link to="" style={{textDecoration:"none" , color:"#fff"}}><h2>letsCHAT Video Call</h2></Link>
+                    <Link to="" style={{textDecoration:"none" , color:"#fff"}}><h2>letsMeet</h2></Link>
                 </div>
 
                 <div className="menus">
@@ -29,7 +29,7 @@ export default function Landing() {
             <div className="LandingMainContainer">
                 <div className="divContent">
                     <h1> <span style={{color:"rgb(206, 138, 12)"}}>Connect</span> with your Loved Ones</h1>
-                    <p>Cover a distance by letsCHAT video call</p>
+                    <p>Cover a distance by letsMeet Video-Conferencing App</p>
                     <Link to="/auth"> 
                         <button className='divBtn'  style={{width:"80px",height:"25px"}} >Get Started</button>
                     </Link>

@@ -1,4 +1,4 @@
-const isProd = true;
+const isProd = false;
 
 const server = isProd ? "https://letschat-backend-dw45.onrender.com" : "http://localhost:8000"
 
